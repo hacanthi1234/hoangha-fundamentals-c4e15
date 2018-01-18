@@ -1,0 +1,21 @@
+infinite loop: 
+
+   while True:
+	yob...... (if the result is suitable, the code will loop again so as to find result)
+	
+to end loop: Ctrl + c or type the fault token.
+
+   while False: end defintely the loop.
+
+for i in range (): finite loop (countable)
+while True: infinite loop
+break: to end the loop
+
+exercise:
+  lottery =))) 
+
+tip làm bài th? password 3 times:
+n = 0
+while n< so lan:
+...
+  n += 1 #day la cong don, neu so lan cong don lam n khong thoa man while thi while se break

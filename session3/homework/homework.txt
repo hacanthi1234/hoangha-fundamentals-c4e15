@@ -1,0 +1,35 @@
+1. What are the main functional differences between a while and a for? 
+while:
+  -while True: infinite loop
+   while False: end defintely the loop.
+
+for: - for i in range (): finite loop (countable)
+
+2. What’s the difference between break and continue? 
+
+break
+Jumps out of the closest enclosing loop (past the entire loop statement)
+
+continue
+Jumps to the top of the closest enclosing loop (to the loop’s header line)
+
+3. When is a loop’s else clause executed?
+
+-The else clause is only executed when your while condition becomes false. If you break out of the loop, or if an exception is raised, it won't be executed.
+
+
+ 
+4. How can you code a counter-based loop in Python? 
+
+- use a coode that can make the whole code above run in wrong way or set the times after which code is no longer working.
+
+
+5. What can a range be used for in a for loop?
+
+-For one thing, they provide a simple way to repeat an action a specific number of times. To print three lines, for example, use a range to generate the
+ appropriate number of integers: 
+>>> for i in range(3):     
+	print(i, 'Pythons')
+	0 Pythons 
+	1 Pythons 
+	2 Pythons 
