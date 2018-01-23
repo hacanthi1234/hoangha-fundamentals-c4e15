@@ -19,3 +19,29 @@ n = 0
 while n< so lan:
 ...
   n += 1 #day la cong don, neu so lan cong don lam n khong thoa man while thi while se break
+
+print multiple sentence:
+print('''
+hi there
+think about....
+''')
+
+
+Binary: thuat toan chia doi: ( for guessrandom exercise)
+
+Ex
+.lower() : de cho chu cai string ve chu in thuong
+>>> x = "HOang Ha"
+>>> x.lower()
+"hoang ha"
+
+
+
+fill in the space:
+
+for ex:
+x = 2
+y = 2
+"Tu has {0} ex-girlfriends and {1} dogs". format(x, y)
+>>> Tu has 2 ............. and 2......
+

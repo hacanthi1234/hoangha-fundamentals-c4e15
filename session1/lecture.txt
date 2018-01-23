@@ -1,0 +1,28 @@
+Windows: command promt
+ dir - xem folders ddang cos trong m?c
+ cd - vào thu m?c chi d?nh
+mkdir t?o thu m?c
+cd.. - back ra 1 thu m?c
+Atom
+n = input(“”) nh?ng di?u mu?n h?i ngu?i dùng
+dùng , d? n?i
+n: variable (bi?n), sau d?u b?ng là value
+cls: d? xóa di d? li?u v?a vi?t
+python - vô interactive mode
+del + bi?n : d? xóa
+formula: / - chia, // - chia làm tròn, % - l?y s? du, * - nhân, **- mu
+chuy?n int - str : int(n)
+python turtle draw multiple square:
+from turtle import *
+shape("turtle")
+speed(0)
+for i in range (500):
+    forward(100)
+    left(90)
+    forward(100)
+    left(90)
+    forward(100)
+    left(90)
+    forward(100)
+    left(7)
+mainloop() 

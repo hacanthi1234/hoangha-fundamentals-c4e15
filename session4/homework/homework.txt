@@ -1,0 +1,9 @@
+1- What is nested list?
+
++ A list within another list is said to benested.
+
+2- Can a list store both integers and strings in it?
+
++ Of course. The list can contains various factors including strings and integers. Each factor in list is a variable
+  For example:
+   zs = ["hello", 2.0, 5, [10, 20]]

@@ -1,0 +1,35 @@
+LIST (danh sach):
+
+C      R    U      D      - basic thing about data (important)
+Create Read Update Delete
+
+.append(): gan gia tri vao sau duoi
+sereparator: chia dau phay ( trong file creat list.py for detail)
+
+Index: chi so
+menu = ["death note", "netflix", "teaching"] ( all factors inside[] is variable)
+             0           1          2 (index)
+             -3         -2         -1   
+
+print(menu[0]) , neu ra ngoai khoang range la loi
+>>>>deathnote
+
+print(menu[-1]), lay nguoc lai (cai cuoi)
+
+ap dung ( tim nguoi diem cao nhat)
+
+print(len(menu)): dem so phan tu trong list (len viet tat cua length)
+
+
+creat list with number in front of each line
+for index, item in enumerate(menu): #ENUMERATE la tong hop tung cap mot
+    print(index + 1, item) #+1 vi may dem tu 0
+
+
+menu.pop(0) : lo?i b? factor ? v? trí 0
+menu.remove("death note")
+
+chinh toan bo cac chu ve chu thuong
+for index, item in enumerate(menu): #clone
+menu[index] = item.lower()      #update original
+
